@@ -7,7 +7,11 @@ edition = "2021"
 
 [dependencies]
 derive_builder = "0.12.0"
+derive-getters = "0.3.0"
 tracing = "0.1.39"
+thiserror = "1.0.49"
+bb8 = "0.8.1"
+tokio = { version = "1.33.0", features = ["full", "net"]}
 
 [dev-dependencies]
 anyhow = "1.0.75"

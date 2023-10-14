@@ -1,9 +1,7 @@
-mod admin;
-mod connect;
-mod consumer;
-mod producer;
-mod streams;
+mod kafka_client;
+mod error;
+mod connection;
 
-pub use admin::AdminClient;
-pub use admin::AdminClientBuilder;
-pub use admin::AdminClientBuilderError;
+pub use kafka_client::KafkaClient;
+pub use kafka_client::KafkaClientBuilder;
+pub use kafka_client::KafkaClientBuilderError;
